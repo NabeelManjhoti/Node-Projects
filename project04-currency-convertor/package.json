@@ -1,0 +1,20 @@
+{
+  "name": "na-currency-convertor",
+  "version": "1.0.0",
+  "description": "A simple currency converter by using TypeScript, NodeJS and Inquirer.",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nabeel Ali",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "chalk": "^4.1.2",
+    "inquirer": "^9.2.23"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}

@@ -10,12 +10,12 @@ while(conditions){
         {
             name: "task",
             type: "input",
-            message: "Enter your new Task",
+            message: "Enter your new Task:",
         },
     ]);
 
     toDoList.push(newTask.task);
-    console.log(`${newTask.task} added in Todo-list Sucessfully`);
+    console.log(`${newTask.task}: added in Todo-list Sucessfully`);
 
     let addMoreTask = await inquirer.prompt([
         {
@@ -29,4 +29,4 @@ while(conditions){
     conditions = addMoreTask.more;
 };
 
-console.log("Your pending tasks are", toDoList);
+console.log("Your pending tasks are:", toDoList);
